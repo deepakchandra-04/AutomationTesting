@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testingWorldPractice.TC001_Registration_Functionality">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="tc001"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC001_Registration_Functionality -->
+      <class name="testingWorldPractice.TC006_FetchData_Browser">
+        <methods>
+          <include name="tc001"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC006_FetchData_Browser -->
+      <class name="testingWorldPractice.TC008_keyword_mouse_combinations">
+        <methods>
+          <include name="tc001"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC008_keyword_mouse_combinations -->
+      <class name="testingWorldPractice.TC007_keyword_mouse_singleKey">
+        <methods>
+          <include name="tc001"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC007_keyword_mouse_singleKey -->
+      <class name="testingWorldPractice.TC009_mouse_moveToElement">
+        <methods>
+          <include name="tc001"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC009_mouse_moveToElement -->
+      <class name="testingWorldPractice.TC002_Login_Functionality">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="tc002"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC002_Login_Functionality -->
+      <class name="pom_testCases.TC_001">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="tc001"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- pom_testCases.TC_001 -->
+      <class name="testingWorldPractice.TC010_Mouse_keyboardOperations">
+        <methods>
+          <include name="tc001"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC010_Mouse_keyboardOperations -->
+      <class name="testingWorldPractice.TC011_WaitOperations">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC011_WaitOperations -->
+      <class name="testingWorldPractice.TC005_Registration_DropDown_liST">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="tc001"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testingWorldPractice.TC005_Registration_DropDown_liST -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
